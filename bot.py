@@ -12,7 +12,7 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 TIKTOK_PATTERN = re.compile(
-    r"https?://.*tiktok\.com/\S+"
+    r"https?://(www\.|vm\.|vt\.)?tiktok\.com/\S+"
 )
 
 
