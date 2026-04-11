@@ -11,7 +11,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-TIKTOK_PATTERN = re.compile(r"https?://(www\.)?(vm\.)?tiktok\.com/\S+")
+TIKTOK_PATTERN = re.compile(
+    r"https?://.*tiktok\.com/\S+"
+)
 
 
 def download_tiktok_video(url: str) -> str:
