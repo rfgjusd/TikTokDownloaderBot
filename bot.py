@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 # =========================
 # НАСТРОЙКИ
 # =========================
-BOT_TOKEN = "8249890063:AAGbB7MuSMjfechuhm2LxVJo_KxcvIyKkdU"
+BOT_TOKEN = "."
 
 TIKTOK_PATTERN = re.compile(r"https?://(www\.)?(vm\.)?tiktok\.com/\S+")
 
