@@ -44,7 +44,7 @@ def download_tiktok_video(url: str) -> str:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Привет, этого  бота создал Timulik! 👋 Отправь мне ссылку на TikTok-видео, и я попробую скачать его."
+        "Привет, этого бота создал Timulik! 👋 Отправь мне ссылку на TikTok-видео, и я попробую скачать его."
     )
 
 
